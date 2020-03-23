@@ -1,13 +1,13 @@
 {
-  "name": "@scaleleap/typescript-template",
-  "description": "",
+  "name": "@scaleleap/renovate-config",
+  "description": "Renovate shareable config presets",
   "license": "MIT",
   "author": {
     "name": "Roman Filippov",
     "email": "roman@scaleleap.com",
     "url": "https://www.scaleleap.com/"
   },
-  "homepage": "https://github.com/ScaleLeap/.../#readme",
+  "homepage": "https://github.com/ScaleLeap/renovate-config/#readme",
   "version": "0.0.0",
   "main": "lib/index.js",
   "files": [
@@ -20,6 +20,7 @@
     "dev": "ts-node-dev --respawn --transpileOnly src",
     "lint": "eslint --ext ts,js src/ test/",
     "lint:fix": "npm run lint -- --fix",
+    "semantic-release": "semantic-release",
     "start": "ts-node --transpile-only --pretty src",
     "test": "jest",
     "test:watch": "jest --watchAll"
@@ -40,6 +41,7 @@
     "jest": "25.1.0",
     "post-npm-install": "2.0.0",
     "prettier": "1.19.1",
+    "renovate": "19.176.3",
     "rimraf": "3.0.2",
     "ts-jest": "25.2.1",
     "ts-node": "8.8.1",
@@ -50,5 +52,47 @@
   "keywords": [],
   "publishConfig": {
     "access": "private"
+  },
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "@scaleleap:base",
+        "@scaleleap:devDependencies",
+        "@scaleleap:minorDependencies"
+      ]
+    },
+    "base": {
+      "extends": [
+        "config:base",
+        "schedule:weekdays"
+      ],
+      "labels": [
+        "renovatebot"
+      ],
+      "semanticCommits": true
+    },
+    "devDependencies": {
+      "packageRules": [
+        {
+          "depTypeList": [
+            "devDependencies"
+          ],
+          "automerge": true
+        }
+      ]
+    },
+    "minorDependencies": {
+      "packageRules": [
+        {
+          "updateTypes": [
+            "minor",
+            "patch",
+            "pin",
+            "digest"
+          ],
+          "automerge": true
+        }
+      ]
+    }
   }
 }
