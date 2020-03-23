@@ -23,7 +23,7 @@
     "renovate.json": true,
     "tsconfig.build.json": true,
     "tsconfig.json": true,
-    "LICENSE": true,
+    "LICENSE": true
   },
   "search.exclude": {
     "lib/**": true,
