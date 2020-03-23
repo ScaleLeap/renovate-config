@@ -7,7 +7,7 @@ const presetNames = Object.keys(presets)
 const pkgRenovateConfig = pkg['renovate-config'] as Record<string, unknown>
 const presetPrefix = createScope('foo').split(':')[0]
 
-describe.each(presetNames)('Preset %s', presetName => {
+describe.each(presetNames)('Preset %s', (presetName) => {
   const preset = presets[presetName]
 
   it('should validate', async () => {
@@ -31,10 +31,10 @@ describe.each(presetNames)('Preset %s', presetName => {
     const extend = preset.extends || []
 
     // finds defined presets from our scope
-    const scopedPresets = extend.filter(p => p.startsWith(presetPrefix)).map(p => p.substr(presetPrefix.length + 1))
+    const scopedPresets = extend.filter((p) => p.startsWith(presetPrefix)).map((p) => p.substr(presetPrefix.length + 1))
 
     // then finds actual presets that we have available
-    const foundPresets = scopedPresets.filter(p => !!presets[p])
+    const foundPresets = scopedPresets.filter((p) => !!presets[p])
 
     expect(scopedPresets).toEqual(foundPresets)
   })
