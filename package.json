@@ -51,7 +51,7 @@
   },
   "keywords": [],
   "publishConfig": {
-    "access": "private"
+    "access": "public"
   },
   "renovate-config": {
     "default": {
