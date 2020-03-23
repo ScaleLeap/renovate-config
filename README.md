@@ -1,18 +1,25 @@
-![](https://raw.githubusercontent.com/ScaleLeap/typescript-template/master/docs/assets/header.png)
+![](https://raw.githubusercontent.com/ScaleLeap/renovate-config/master/docs/assets/header.png)
 
-📦 @scaleleap/typescript-template
+📦 @scaleleap/renovate-config
 ===================================
 
-A template for creating TypeScript applications.
+[Renovate](https://docs.renovatebot.com/) [shareable config presets](https://docs.renovatebot.com/config-presets/).
 
 ---
 
 This package does one, two and three.
 
-## Download & Installation
+## Installation
 
-```sh
-$ npm i -s @scaleleap/typescript-template
+Create a `renovate.json` in your project root, with the following settings:
+
+```json
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "@scaleleap"
+  ]
+}
 ```
 
 ## Contributing
@@ -29,7 +36,7 @@ This project is licensed under the MIT License.
 
 ## Badges
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ScaleLeap/typescript-template/CI)](https://github.com/ScaleLeap/typescript-template/actions)
-[![NPM](https://img.shields.io/npm/v/@scaleleap/typescript-template)](https://npm.im/@scaleleap/typescript-template)
-[![License](https://img.shields.io/npm/l/@scaleleap/typescript-template)](./LICENSE)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ScaleLeap/renovate-config/Test)](https://github.com/ScaleLeap/renovate-config/actions)
+[![NPM](https://img.shields.io/npm/v/@scaleleap/renovate-config)](https://npm.im/@scaleleap/renovate-config)
+[![License](https://img.shields.io/npm/l/@scaleleap/renovate-config)](./LICENSE)
 [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
