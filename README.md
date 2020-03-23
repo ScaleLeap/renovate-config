@@ -9,7 +9,7 @@
 
 ## Installation
 
-Create a `renovate.json` in your project root, with the following settings:
+Create a `renovate.json` in your project root, with the following:
 
 ```json
 {
