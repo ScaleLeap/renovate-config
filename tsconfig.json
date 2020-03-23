@@ -1,7 +1,10 @@
 {
   "extends": "tsconfigs/nodejs-module",
+  "compilerOptions": {
+    "resolveJsonModule": true
+  },
   "include": [
     "src/**/*.ts",
-    "test/**/*.ts"
+    "test/**/*.ts",
   ]
 }
