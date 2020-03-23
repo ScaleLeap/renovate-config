@@ -7,8 +7,6 @@
 
 ---
 
-This package does one, two and three.
-
 ## Installation
 
 Create a `renovate.json` in your project root, with the following settings:
