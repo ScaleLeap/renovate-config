@@ -22,6 +22,10 @@ Create a `renovate.json` in your project root, with the following settings:
 
 ## Contributing
 
+1. Create or edit a preset in `src/presets/*.ts`
+2. Run `npm start` to commit changes to `package.json`
+3. Run `npm t` for tests
+
 This repository uses [Conventional Commit](https://www.conventionalcommits.org/) style commit messages.
 
 ## Authors or Acknowledgments
