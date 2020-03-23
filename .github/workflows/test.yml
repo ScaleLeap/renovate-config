@@ -1,26 +1,16 @@
 name: Test
 
 env:
-  CI: true
+  CI: "true"
 
 on:
    - pull_request
 
 jobs:
   test:
-    name: Node ${{ matrix.node }} and ${{ matrix.os }}
+    name: Test
 
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        node:
-          - 10
-          - 12
-        os:
-          - ubuntu-latest
-          - macOS-latest
-          - windows-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
@@ -41,7 +31,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node }}
+          node-version: 12
 
       - name: Install
         run: npm ci
@@ -51,6 +41,3 @@ jobs:
 
       - name: Test
         run: npm t
-
-      - name: Build
-        run: npm run build
