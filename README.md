@@ -28,6 +28,8 @@ Create a `renovate.json` in your project root, with the following:
 
 This repository uses [Conventional Commit](https://www.conventionalcommits.org/) style commit messages.
 
+Use [Configuration Options](https://docs.renovatebot.com/configuration-options/) for reference.
+
 ## Authors or Acknowledgments
 
 * Roman Filippov ([Scale Leap](https://www.scaleleap.com))
