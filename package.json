@@ -63,7 +63,8 @@
       "extends": [
         "@scaleleap:base",
         "@scaleleap:devDependencies",
-        "@scaleleap:minorDependencies"
+        "@scaleleap:minorDependencies",
+        "@scaleleap:typescriptEslint"
       ]
     },
     "base": {
@@ -99,6 +100,18 @@
             "digest"
           ],
           "automerge": true
+        }
+      ]
+    },
+    "typescriptEslint": {
+      "packageRules": [
+        {
+          "packagePatterns": [
+            "^@typescript-eslint/"
+          ],
+          "schedule": [
+            "before 3am on the first day of the month"
+          ]
         }
       ]
     }

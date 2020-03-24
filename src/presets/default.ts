@@ -6,5 +6,10 @@ import { createScope } from '../scope-factory'
  */
 
 export default createPreset({
-  extends: [createScope('base'), createScope('devDependencies'), createScope('minorDependencies')],
+  extends: [
+    createScope('base'),
+    createScope('devDependencies'),
+    createScope('minorDependencies'),
+    createScope('typescriptEslint'),
+  ],
 })
