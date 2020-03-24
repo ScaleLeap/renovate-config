@@ -68,13 +68,16 @@
     },
     "base": {
       "extends": [
-        "config:base",
-        "schedule:weekdays"
+        "config:base"
       ],
       "labels": [
         "renovatebot"
       ],
-      "semanticCommits": true
+      "schedule": [
+        "every weekday"
+      ],
+      "semanticCommits": true,
+      "timezone": "Etc/UTC"
     },
     "devDependencies": {
       "packageRules": [
