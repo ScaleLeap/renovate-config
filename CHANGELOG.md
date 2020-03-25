@@ -3,6 +3,13 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/ScaleLeap/renovate-config/compare/v1.1.0...v1.2.0) (2020-03-25)
+
+
+### Features
+
+* adds types config ([ec928cf](https://github.com/ScaleLeap/renovate-config/commit/ec928cfbbf3c003d1a7ea05bd8433a46a6206281))
+
 # [1.1.0](https://github.com/ScaleLeap/renovate-config/compare/v1.0.0...v1.1.0) (2020-03-24)
 
 
