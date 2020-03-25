@@ -64,7 +64,8 @@
         "@scaleleap:base",
         "@scaleleap:devDependencies",
         "@scaleleap:minorDependencies",
-        "@scaleleap:typescriptEslint"
+        "@scaleleap:typescriptEslint",
+        "@scaleleap:types"
       ]
     },
     "base": {
@@ -108,6 +109,18 @@
         {
           "packagePatterns": [
             "^@typescript-eslint/"
+          ],
+          "schedule": [
+            "before 3am on the first day of the month"
+          ]
+        }
+      ]
+    },
+    "types": {
+      "packageRules": [
+        {
+          "packageNames": [
+            "@types/node"
           ],
           "schedule": [
             "before 3am on the first day of the month"

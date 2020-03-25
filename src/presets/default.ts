@@ -11,5 +11,6 @@ export default createPreset({
     createScope('devDependencies'),
     createScope('minorDependencies'),
     createScope('typescriptEslint'),
+    createScope('types'),
   ],
 })
