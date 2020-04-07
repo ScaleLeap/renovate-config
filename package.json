@@ -42,7 +42,7 @@
     "jest": "25.2.7",
     "post-npm-install": "2.0.0",
     "prettier": "2.0.4",
-    "renovate": "19.198.1",
+    "renovate": "19.200.2",
     "rimraf": "3.0.2",
     "ts-jest": "25.3.1",
     "ts-node": "8.8.2",
