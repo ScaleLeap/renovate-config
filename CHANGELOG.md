@@ -3,6 +3,14 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/ScaleLeap/renovate-config/compare/v1.2.0...v1.3.0) (2020-04-30)
+
+
+### Features
+
+* runs npmDedupe ([3093c30](https://github.com/ScaleLeap/renovate-config/commit/3093c302f0917d1c2eaa8077ef9301a578c35be7))
+* runs npmDedupe ([42d6311](https://github.com/ScaleLeap/renovate-config/commit/42d63111bf5532481840ac85c2325584172fa4e7))
+
 # [1.2.0](https://github.com/ScaleLeap/renovate-config/compare/v1.1.0...v1.2.0) (2020-03-25)
 
 
