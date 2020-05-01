@@ -69,7 +69,8 @@
     },
     "base": {
       "extends": [
-        "config:base"
+        "config:base",
+        "monorepo:pollyjs"
       ],
       "labels": [
         "renovatebot"
