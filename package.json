@@ -79,10 +79,7 @@
         "every weekday"
       ],
       "semanticCommits": true,
-      "timezone": "Etc/UTC",
-      "postUpdateOptions": [
-        "npmDedupe"
-      ]
+      "timezone": "Etc/UTC"
     },
     "devDependencies": {
       "packageRules": [

@@ -7,5 +7,4 @@ export default createPreset({
   schedule: [SCHEDULE.WEEKDAYS],
   semanticCommits: true,
   timezone: 'Etc/UTC',
-  postUpdateOptions: ['npmDedupe'],
 })
