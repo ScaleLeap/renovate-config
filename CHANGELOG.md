@@ -3,6 +3,14 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.1](https://github.com/ScaleLeap/renovate-config/compare/v1.4.0...v1.4.1) (2020-05-01)
+
+
+### Bug Fixes
+
+* preset reference ([298ca35](https://github.com/ScaleLeap/renovate-config/commit/298ca356dab052a176b0d5f466317c7e4500678a))
+* removes dedupe ([86feb84](https://github.com/ScaleLeap/renovate-config/commit/86feb84645ad96b989cf06139e1144445c5dc5ab))
+
 # [1.4.0](https://github.com/ScaleLeap/renovate-config/compare/v1.3.0...v1.4.0) (2020-05-01)
 
 
