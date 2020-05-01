@@ -27,7 +27,7 @@
   },
   "types": "lib/index.d.ts",
   "devDependencies": {
-    "@scaleleap/semantic-release-config": "1.1.7",
+    "@scaleleap/semantic-release-config": "1.1.8",
     "@types/jest": "25.2.1",
     "@types/node": "13.13.4",
     "@typescript-eslint/eslint-plugin": "2.30.0",
