@@ -3,6 +3,19 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/ScaleLeap/renovate-config/compare/v1.3.0...v1.4.0) (2020-05-01)
+
+
+### Bug Fixes
+
+* lock ([52ae281](https://github.com/ScaleLeap/renovate-config/commit/52ae28135a9fd94996cdd2a437a11fbe9ac616d0))
+* updates jest monthly ([e032c0f](https://github.com/ScaleLeap/renovate-config/commit/e032c0fab5c0ceebd012469635b4f2430c5dc5ca))
+
+
+### Features
+
+* adds monorepo:pollyjs preset ([8310199](https://github.com/ScaleLeap/renovate-config/commit/8310199ec812f274592144e0325250822b3b31ce))
+
 # [1.3.0](https://github.com/ScaleLeap/renovate-config/compare/v1.2.0...v1.3.0) (2020-04-30)
 
 
