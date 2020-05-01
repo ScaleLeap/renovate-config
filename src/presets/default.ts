@@ -10,7 +10,7 @@ export default createPreset({
     createScope('base'),
     createScope('devDependencies'),
     createScope('minorDependencies'),
-    createScope('typescriptEslint'),
+    createScope('monthly'),
     createScope('types'),
   ],
 })

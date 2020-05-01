@@ -63,7 +63,7 @@
         "@scaleleap:base",
         "@scaleleap:devDependencies",
         "@scaleleap:minorDependencies",
-        "@scaleleap:typescriptEslint",
+        "@scaleleap:monthly",
         "@scaleleap:types"
       ]
     },
