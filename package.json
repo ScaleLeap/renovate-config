@@ -133,7 +133,10 @@
         {
           "packagePatterns": [
             "^@typescript-eslint/",
-            "jest"
+            "jest",
+            "^aws-sdk$",
+            "^aws-cdk",
+            "^@aws-cdk/"
           ],
           "schedule": [
             "before 3am on the first day of the month"

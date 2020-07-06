@@ -9,7 +9,7 @@ import { SCHEDULE } from '../constants'
 export default createPreset({
   packageRules: [
     {
-      packagePatterns: ['^@typescript-eslint/', 'jest'],
+      packagePatterns: ['^@typescript-eslint/', 'jest', '^aws-sdk$', '^aws-cdk', '^@aws-cdk/'],
       schedule: [SCHEDULE.MONTHLY],
     },
   ],
