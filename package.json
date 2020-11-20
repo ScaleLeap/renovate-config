@@ -41,7 +41,7 @@
     "husky": "4.3.0",
     "jest": "26.6.1",
     "post-npm-install": "2.0.0",
-    "prettier": "2.1.2",
+    "prettier": "2.2.0",
     "renovate": "23.21.1",
     "rimraf": "3.0.2",
     "ts-jest": "26.4.3",
