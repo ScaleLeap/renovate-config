@@ -3,6 +3,13 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.1](https://github.com/ScaleLeap/renovate-config/compare/v1.5.0...v1.5.1) (2021-01-12)
+
+
+### Bug Fixes
+
+* semanticCommits option ([37d6bda](https://github.com/ScaleLeap/renovate-config/commit/37d6bdaf6824ee70d0ead30179d1f09f6e35e413))
+
 # [1.5.0](https://github.com/ScaleLeap/renovate-config/compare/v1.4.1...v1.5.0) (2020-07-06)
 
 
