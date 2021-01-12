@@ -78,7 +78,7 @@
       "schedule": [
         "every weekday"
       ],
-      "semanticCommits": true,
+      "semanticCommits": "enabled",
       "timezone": "Etc/UTC"
     },
     "devDependencies": {
