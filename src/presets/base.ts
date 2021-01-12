@@ -5,6 +5,6 @@ export default createPreset({
   extends: ['config:base', 'monorepo:pollyjs'],
   labels: ['renovatebot'],
   schedule: [SCHEDULE.WEEKDAYS],
-  semanticCommits: true,
+  semanticCommits: 'enabled',
   timezone: 'Etc/UTC',
 })
