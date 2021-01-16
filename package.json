@@ -8,6 +8,13 @@
     "url": "https://www.scaleleap.com/"
   },
   "homepage": "https://github.com/ScaleLeap/renovate-config/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ScaleLeap/renovate-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ScaleLeap/renovate-config/issues"
+  },
   "version": "1.5.1",
   "main": "lib/index.js",
   "files": [
