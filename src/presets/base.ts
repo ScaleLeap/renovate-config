@@ -1,5 +1,5 @@
-import { createPreset } from '../preset-factory'
 import { SCHEDULE } from '../constants'
+import { createPreset } from '../preset-factory'
 
 export default createPreset({
   extends: ['config:base', 'monorepo:pollyjs'],

@@ -1,7 +1,9 @@
 import { createPreset } from './preset-factory'
 
-describe(createPreset.name, () => {
+describe(`${createPreset.name}`, () => {
   it('should return a config', () => {
-    expect(createPreset({})).toEqual({})
+    expect.assertions(1)
+
+    expect(createPreset({})).toStrictEqual({})
   })
 })

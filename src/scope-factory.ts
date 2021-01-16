@@ -1,5 +1,6 @@
-import pkg from '../package.json'
-const presetPrefix = pkg.name.split('/')[0]
+import package_ from '../package.json'
+
+const presetPrefix = package_.name.split('/')[0]
 
 export function createScope(name: string): string {
   return `${presetPrefix}:${name}`

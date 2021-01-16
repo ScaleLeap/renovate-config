@@ -1,12 +1,17 @@
 import { writeFileSync } from 'fs'
-import { join } from 'path'
-import presets from './presets'
-import pkg from '../package.json'
+import path from 'path'
 
-const pkgRenovateConfig = pkg['renovate-config'] as Record<string, unknown>
+import package_ from '../package.json'
+import presets from './presets'
+
+const packageRenovateConfig = package_['renovate-config'] as Record<string, unknown>
 
 Object.keys(presets)
   .sort()
-  .forEach((key) => (pkgRenovateConfig[key] = presets[key]))
+  .forEach((key) => {
+    packageRenovateConfig[key] = presets[key]
+  })
 
-writeFileSync(join(__dirname, '../package.json'), JSON.stringify(pkg, null, 2), { encoding: 'utf8' })
+writeFileSync(path.join(__dirname, '../package.json'), JSON.stringify(package_, undefined, 2), {
+  encoding: 'utf8',
+})
