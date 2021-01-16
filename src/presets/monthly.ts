@@ -9,7 +9,14 @@ import { createPreset } from '../preset-factory'
 export default createPreset({
   packageRules: [
     {
-      packagePatterns: ['^@typescript-eslint/', 'jest', '^aws-sdk$', '^aws-cdk', '^@aws-cdk/'],
+      packagePatterns: [
+        '@scaleleap/utils',
+        '^@typescript-eslint/',
+        'jest',
+        '^aws-sdk$',
+        '^aws-cdk',
+        '^@aws-cdk/',
+      ],
       schedule: [SCHEDULE.MONTHLY],
     },
   ],

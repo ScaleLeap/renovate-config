@@ -129,6 +129,7 @@
       "packageRules": [
         {
           "packagePatterns": [
+            "@scaleleap/utils",
             "^@typescript-eslint/",
             "jest",
             "^aws-sdk$",
