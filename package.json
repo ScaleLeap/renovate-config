@@ -27,14 +27,13 @@
     "dev": "ts-node-dev --respawn --transpileOnly src",
     "lint": "eslint --ext ts,js src/ test/",
     "lint:fix": "npm run lint -- --fix",
-    "semantic-release": "semantic-release",
+    "semantic-release": "npx @scaleleap/semantic-release-config",
     "start": "ts-node --transpile-only --pretty src",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
   "types": "lib/index.d.ts",
   "devDependencies": {
-    "@scaleleap/semantic-release-config": "1.1.22",
     "@types/jest": "26.0.19",
     "@types/node": "13.13.4",
     "@typescript-eslint/eslint-plugin": "4.11.1",
