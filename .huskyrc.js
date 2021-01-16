@@ -1,8 +1,1 @@
-const npmInstall = 'post-npm-install'
-
-module.exports = {
-  hooks: {
-    'post-merge': npmInstall,
-    'post-rebase': npmInstall
-  }
-}
+module.exports = require('@scaleleap/utils/husky')(__dirname)
