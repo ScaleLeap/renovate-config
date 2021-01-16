@@ -3,6 +3,13 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/ScaleLeap/renovate-config/compare/v1.5.1...v1.6.0) (2021-01-16)
+
+
+### Features
+
+* updates @scaleleap/utils monthly ([452dd5d](https://github.com/ScaleLeap/renovate-config/commit/452dd5d163611ac686890b6cf3464d9400422eb5))
+
 ## [1.5.1](https://github.com/ScaleLeap/renovate-config/compare/v1.5.0...v1.5.1) (2021-01-12)
 
 
