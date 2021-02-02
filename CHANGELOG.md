@@ -3,6 +3,18 @@
           All notable changes to this project will be documented in this file.
           See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/ScaleLeap/renovate-config/compare/v1.6.0...v1.7.0) (2021-02-02)
+
+
+### Bug Fixes
+
+* npm audit ([7072956](https://github.com/ScaleLeap/renovate-config/commit/7072956f258de2d655b421ce69de9577f9f7057d))
+
+
+### Features
+
+* always uses chore for all deps ([04c5d40](https://github.com/ScaleLeap/renovate-config/commit/04c5d40ed5de1eb43f99ba984d39814056ad3368))
+
 # [1.6.0](https://github.com/ScaleLeap/renovate-config/compare/v1.5.1...v1.6.0) (2021-01-16)
 
 
