@@ -76,6 +76,7 @@
         "every weekday"
       ],
       "semanticCommits": "enabled",
+      "semanticCommitType": "chore",
       "timezone": "Etc/UTC"
     },
     "devDependencies": {

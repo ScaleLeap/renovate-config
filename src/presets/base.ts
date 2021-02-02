@@ -6,5 +6,6 @@ export default createPreset({
   labels: ['renovatebot'],
   schedule: [SCHEDULE.WEEKDAYS],
   semanticCommits: 'enabled',
+  semanticCommitType: 'chore',
   timezone: 'Etc/UTC',
 })
