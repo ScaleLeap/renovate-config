@@ -34,7 +34,7 @@
   },
   "types": "lib/index.d.ts",
   "devDependencies": {
-    "@scaleleap/utils": "1.8.63",
+    "@scaleleap/utils": "1.9.9",
     "@types/jest": "26.0.20",
     "@types/node": "13.13.4",
     "danger": "10.6.3",
