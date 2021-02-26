@@ -8,7 +8,7 @@ import { createPreset } from '../preset-factory'
 export default createPreset({
   packageRules: [
     {
-      packageNames: ['@types/node'],
+      matchPackageNames: ['@types/node'],
       schedule: [SCHEDULE.MONTHLY],
     },
   ],

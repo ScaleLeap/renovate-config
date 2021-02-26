@@ -7,7 +7,7 @@ import { createPreset } from '../preset-factory'
 export default createPreset({
   packageRules: [
     {
-      depTypeList: ['devDependencies'],
+      matchDepTypes: ['devDependencies'],
       automerge: true,
     },
   ],

@@ -7,7 +7,7 @@ import { createPreset } from '../preset-factory'
 export default createPreset({
   packageRules: [
     {
-      updateTypes: ['minor', 'patch', 'pin', 'digest'],
+      matchUpdateTypes: ['minor', 'patch', 'pin', 'digest'],
       automerge: true,
     },
   ],

@@ -9,7 +9,7 @@ import { createPreset } from '../preset-factory'
 export default createPreset({
   packageRules: [
     {
-      packagePatterns: [
+      matchPackagePatterns: [
         '@scaleleap/utils',
         '^@typescript-eslint/',
         'jest',
