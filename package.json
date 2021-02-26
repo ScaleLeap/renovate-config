@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/ScaleLeap/renovate-config/issues"
   },
-  "version": "1.7.0",
+  "version": "1.7.1",
   "main": "lib/index.js",
   "files": [
     "/lib"
