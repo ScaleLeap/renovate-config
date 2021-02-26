@@ -1,4 +1,4 @@
-import { writeFileSync } from 'fs'
+import { promises as fs } from 'fs'
 import path from 'path'
 
 import package_ from '../package.json'
@@ -10,6 +10,6 @@ for (const key of Object.keys(presets).sort()) {
   packageRenovateConfig[key] = presets[key]
 }
 
-writeFileSync(path.join(__dirname, '../package.json'), JSON.stringify(package_, undefined, 2), {
+fs.writeFile(path.join(__dirname, '../package.json'), JSON.stringify(package_, undefined, 2), {
   encoding: 'utf8',
 })
